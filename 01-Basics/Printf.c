@@ -5,7 +5,7 @@
 int main()
 {
     printf("Hello, Huzaif!\n");
-    printf("Welcome to C programming.");
+    printf("How are you?");
 
     return 0;
 }
