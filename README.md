@@ -1,4 +1,4 @@
-# Practice-Code
+# Deep-Dive-C
 
 This is my personal C programming practice repository.  
 It contains only the code examples and exercises I solve while learning C.
