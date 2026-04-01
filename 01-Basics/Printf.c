@@ -1,3 +1,5 @@
+/*printf prints text and \n helps to move to next line. */
+
 #include <stdio.h>
 
 int main()
@@ -8,4 +10,3 @@ int main()
     return 0;
 }
 
-/*printf prints text and \n helps to move to next line. */
