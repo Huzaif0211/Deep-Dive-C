@@ -1,3 +1,25 @@
+/*Menu Driven Math Tool
+Problem Statement:
+
+Create a menu-driven program that repeatedly performs operations based on user choice:
+
+1. Check Even/Odd
+2. Find Factorial
+3. Check Prime
+4. Exit
+
+The program must continue running until the user selects Exit.
+
+Requirements:
+Use switch
+Use a loop to repeat menu
+Use proper break
+Exit only when user selects option 4
+Input Format:
+
+User first enters a choice.
+If the choice requires a number, then take that number as input.*/
+
 #include <stdio.h>
 
 int main()
