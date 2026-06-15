@@ -1,3 +1,26 @@
+/*Electricity Bill Calculator 
+Problem Statement:
+
+Given the number of electricity units consumed, calculate the total bill using the following rules:
+
+0–100 units → ₹5 per unit
+101–200 units → ₹7 per unit
+Above 200 units → ₹10 per unit
+
+The rate applies to the entire number of units (not slab-based).
+
+Input Format
+
+A single integer representing units consumed.
+
+Output Format
+
+Print exactly:
+
+Total Bill = ₹X
+
+Where X is the calculated amount.*/
+
 #include <stdio.h>
 
 int main()

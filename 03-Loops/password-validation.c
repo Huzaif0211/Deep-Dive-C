@@ -1,3 +1,25 @@
+/*Password Validation 
+Problem Statement:
+
+You are given an integer representing a password.
+
+A password is considered valid if:
+
+It contains exactly 4 digits.
+It does not start with 0.
+The sum of its digits is even.
+
+If all conditions are satisfied, print:
+
+Valid Password
+
+Otherwise, print:
+
+Invalid Password
+Input Format
+
+A single integer.*/
+
 #include <stdio.h>
 
 int main()
@@ -9,8 +31,7 @@ int main()
     original = n;
     if (n >= 1000 && n <= 9999)
     {
-        
-    }
+        }
     else
     {
         return 0;
