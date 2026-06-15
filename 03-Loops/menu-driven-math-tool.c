@@ -51,7 +51,7 @@ int main()
             printf("Enter the number you want factorial of: ");
             scanf("%d", &num);
 
-            int fact = 1, i;
+            int fact = 1, i; 
 
             for (i = num; i >= 1; i--)
             {
@@ -77,7 +77,7 @@ int main()
                 {
                     if (num % i == 0)
                     {
-                        flag = 1;
+                        flag = 1;  // remainder agar zero hoga toh flag = 1 that means ki muje divisor milgaya.
                     }
                 }
                 if (flag == 0)
@@ -100,3 +100,31 @@ int main()
         }
     }
 }
+
+/* If you do:
+
+int fact = 0;
+
+Then:
+
+fact = 0 × 5 = 0
+fact = 0 × 4 = 0
+fact = 0 × 3 = 0
+...
+
+👉 Final answer will ALWAYS be 0 ❌
+
+✅ Why 1 works
+
+Start:
+
+fact = 1;
+
+Now:
+
+fact = 1 × 5 = 5
+fact = 5 × 4 = 20
+fact = 20 × 3 = 60
+fact = 60 × 2 = 120
+
+✔ Correct result*/
