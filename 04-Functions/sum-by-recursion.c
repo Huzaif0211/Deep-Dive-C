@@ -22,3 +22,4 @@ int main()
     printf("The sum is: %d", sum(n));
     return 0;
 }
+
