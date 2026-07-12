@@ -2,11 +2,16 @@
 
 int main()
 {
-    int score[5] = {90, 12, 7, 89, 77};
+    int n, arr[100];
+    printf("Enter how many numbers you wanna print: ");
+    scanf("%d", &n);
 
-    for (int i = 0; i <= 4; i++)
+    for (int i = 0; i < n; i++)
     {
-        printf("Score[%d] = %d\n", i, score[i]);
+        scanf("%d", &arr[i]);
     }
-    return 0;
+    for (int j = 0; j < n; j++)
+    {
+        printf("%d ", arr[j]);
+    }
 }
