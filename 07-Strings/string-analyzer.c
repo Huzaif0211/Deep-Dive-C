@@ -17,9 +17,11 @@ int main()
         count++;
         i++;
     }
+    i = 0;
 
-    while (str[i] != '0')
+    while (str[i] != '\0')
     {
+
         if (str[i] != ' ' && (i == 0 || str[i - 1] == ' '))
         {
             words++;
@@ -45,7 +47,7 @@ int main()
             digits++;
         }
 
-        if (isspace(str[i]))
+        if (isspace((unsigned char)(str[i])))
         {
             space++;
         }
@@ -53,5 +55,5 @@ int main()
         i++;
     }
 
-    printf("Total charcters: %d\nTotal words:%d\nTotal vowels:%d\nTotal consonants:%d\nTotal digits:%d\nTotal spaces:%d", count, words, vowels, consonants, digits, space);
+    printf("Total characters: %d\nTotal words:%d\nTotal vowels:%d\nTotal consonants:%d\nTotal digits:%d\nTotal spaces:%d", count, words, vowels, consonants, digits, space);
 }
